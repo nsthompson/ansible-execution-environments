@@ -1,0 +1,3 @@
+aiomqtt==1.0.0
+aiohttp==3.8.4
+ansible-rulebook==1.0.2
