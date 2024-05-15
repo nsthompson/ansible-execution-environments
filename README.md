@@ -7,6 +7,7 @@ This repo contains execution and decision environment definitions and dependenci
 | Name | Description |
 |-|-|
 | k8s-ee | EE with suppport for Kubernetes and Openshift |
+| meraki-ee | EE with support for Certified Meraki Collection |
 | wwt-de | Event-Driven Ansible DE with support for wwt.eda Collection |
 
 ## Building an Execution Environment
