@@ -16,6 +16,7 @@ dependencies:
     package_pip: ansible-runner~=2.3
   galaxy: requirements.yml
   python: requirements.txt
+  system: bindep.txt
 
 additional_build_steps:
   append_base:
