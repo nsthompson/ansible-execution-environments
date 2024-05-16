@@ -4,19 +4,18 @@ images:
   base_image:
     name: 'registry.redhat.io/ansible-automation-platform-24/ee-supported-rhel9:latest'
 
+options:
+  package_manager_path: /usr/bin/microdnf
 dependencies:
-  options:
-    package_manager_path: /usr/bin/microdnf
-  dependencies:
-    python_interpreter:
-      package_system: python3.11
-      python_path: /usr/bin/python3.11
-    ansible_core:
-      package_pip: ansible-core~=2.16
-    ansible_runner:
-      package_pip: ansible-runner~=2.3
-    galaxy: requirements.yml
-    python: requirements.txt
+  python_interpreter:
+    package_system: python3.11
+    python_path: /usr/bin/python3.11
+  ansible_core:
+    package_pip: ansible-core~=2.16
+  ansible_runner:
+    package_pip: ansible-runner~=2.3
+  galaxy: requirements.yml
+  python: requirements.txt
 
 additional_build_steps:
   append_base:
