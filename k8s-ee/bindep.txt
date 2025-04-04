@@ -1,0 +1,5 @@
+findutils [platform:rpm]
+gcc [platform:rpm]
+make [platform:rpm]
+python3.11-devel [platform:rpm]
+libxml2-devel [platform:rpm]
