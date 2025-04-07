@@ -1,4 +1,3 @@
 pynetbox
 jmespath
-sshpass
 ansible-pylibssh
