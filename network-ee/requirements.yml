@@ -1,5 +1,6 @@
 collections:
   - community.general
+  - ansible.controller
   - cisco.ios
   - cisco.meraki
   - name: https://github.com/netbox-community/ansible_modules
