@@ -1,3 +1,4 @@
 pynetbox
 jmespath
 ansible-pylibssh
+ntc-templates
